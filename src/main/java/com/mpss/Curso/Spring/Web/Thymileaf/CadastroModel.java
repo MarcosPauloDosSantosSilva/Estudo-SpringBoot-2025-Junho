@@ -4,15 +4,15 @@ import jakarta.persistence.*;
 
 //Entity transforma uma classe em uma entidade de banco de dados.
 @Entity
-@Table(name = "tb_cadastro")
+@Table(name = "cadastro_tb_pessoa")
 public class CadastroModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    Long id;
-    String nome;
-    String email;
-    int idade;
+    private Long id;
+    private String nome;
+    private String email;
+    private int idade;
 
     public CadastroModel() {
     }
