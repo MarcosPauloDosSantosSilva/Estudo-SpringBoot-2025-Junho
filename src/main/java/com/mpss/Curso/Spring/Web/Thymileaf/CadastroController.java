@@ -5,7 +5,8 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class PrimeiroController {
+public class CadastroController {
+
 
     @RequestMapping("/")
     public String primeiroAppWeb(Model model){
