@@ -1,4 +1,4 @@
-package com.mpss.Curso.Spring.Web.Thymileaf;
+package com.mpss.Curso.Spring.Web.Thymileaf.Funcionarios;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
